@@ -7,7 +7,7 @@ This project is a React application that retrieves vehicle information based on 
 3. Add, delete, edit
 
 Responsive and mobile optimized.
-------
+
 Login details
 ------
 
