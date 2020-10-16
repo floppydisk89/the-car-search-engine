@@ -8,6 +8,10 @@ This project is a React application that retrieves vehicle information based on 
 
 ------
 Responsive and mobile optimized.
+------
+
+Test user: user1@test.rb
+Test password: test
 
 ## Available Scripts
 
