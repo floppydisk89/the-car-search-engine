@@ -1,0 +1,437 @@
+/*Poppins Font pack*/
+@import url( 'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+    background-image: radial-gradient(#f9ece5 20%, transparent 20%);
+    background-size: 10px 10px;
+}
+
+
+.header, .mainFrame{
+    margin:1.8rem 1.8rem;
+}
+
+.softShadow{
+    box-shadow: 0 100px 432px rgba(0, 0, 0, 0.07);
+}
+
+.headerDashboard{
+    background: #fff;
+    border-radius: 24px;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        0 12.5px 10px rgba(0, 0, 0, 0.035),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        0 100px 80px rgba(0, 0, 0, 0.07)
+    ;
+    text-align: center;
+}
+
+.headerDashboard .brickyardLogo{
+    margin: 0.8rem 2rem;
+}
+
+.leftFrame{
+    width: 10%;
+}
+
+.rightFrame{
+    margin-left: 10%;
+}
+
+.brickyardLogo{
+    max-width: 15rem;
+}
+
+.spacer20{
+    margin-top: 20px;
+}
+
+.spacer50{
+    margin-top: 50px;
+}
+
+.brickColor{
+    color: #F36B22;
+}
+
+.successColor{
+    color: #00c853;
+}
+
+.failColor{
+    color: #F44336;
+}
+
+.smallTitle{
+    font-size: 18px;
+}
+
+.mediumTitle{
+    font-size: 26px;
+}
+
+input{
+    margin: 0 3rem;
+    width: 15rem;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 34px;
+    padding: 0 24px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid #7c7c7c;
+    transition: 0.4s;
+}
+
+.actionButton, .deleteButton, .saveButton, .addButton{
+    width: 18rem;
+    height: 50px;
+    background: #F36B22;
+    color: #fff;
+    border: 1px solid #F36B22;
+    border-radius: 34px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.deleteButton, .saveButton, .addButton{
+    width: 8rem;
+    height: 28px;
+    margin-left: 20px;
+}
+
+.saveButton, .addButton{
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+.actionButton:hover, .deleteButton:hover, .saveButton:hover, .addButton:hover{
+    background: #f37622;
+    transition: 0.6s;
+}
+
+*:focus {
+    outline: none;
+}
+
+.panel{
+    width: 90%;
+    min-height: 10rem;
+    background: #fff;
+    border-radius: 24px;
+    margin: 5rem auto 0;
+}
+
+.container{
+    padding: 1rem 2rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.vehicleImg{
+    width: 19rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+
+@media only screen and (max-width: 1690px) {
+    table tr td{
+        font-size: 16px;
+    }
+} 
+
+
+@media only screen and (max-width: 1440px) {
+    .vehicleImg{
+        width: 17rem;
+        height: 10rem;
+    }
+
+    .panel{
+        margin: 8rem auto 0;
+    }
+
+    .mediumTitle {
+        font-size: 22px;
+    }
+
+    table tr td{
+        font-size: 14px;
+    }
+
+    .info{
+        padding:2.6rem;
+    }
+
+    
+    .listButtonGroup{
+        margin-right: -3rem;
+    }
+
+} 
+
+@media only screen and (max-width: 1366px) {
+
+    .loginCar {
+        width: 46vw;
+    }
+
+    .loginFrame {
+        margin: 2rem 5rem;
+    }
+
+    .navigation{
+        top:30%;
+    }
+
+    .editPanel {
+        margin: 2rem auto 0 !important;
+    }
+
+    .editVehicleImg {
+        width: 32% !important;
+    }
+} 
+
+@media only screen and (max-width: 414px){
+    .mainFrame{
+        margin: 1.8rem 1.5rem;
+    }
+    /*LOGIN*/
+    .loginFrame {
+        margin: 1rem;
+        width: 310px;
+    }
+
+    .loginFrame input{
+        margin: 0.5rem;
+    }
+
+    .loginCar{
+        display: none;
+    }
+
+    .Typist{
+        display: none;
+    }
+
+    /*PROFILE*/
+
+    .leftFrame{
+        width: 3%;
+        margin-left: -32px;
+    }
+
+    .rightFrame{
+        margin-left: 0;
+    }
+
+    .navigation{
+        bottom: 0;
+        top:88%;
+        height: 80px;
+        width: 100%;
+    }
+
+    .navigation ul{
+        display: flex;
+        padding: 0; 
+    }
+
+    .navigation li {
+        margin: 1.5rem 2.2rem;
+    }
+
+    .panel {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .itemVehicle{
+        display: block;
+        margin: 2.4rem 0;
+    }
+
+    .vehicleImgContainer{
+        margin: 0 auto;
+        width: 275px;
+    }
+
+    .mediumTitle {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .info{
+        padding: 1rem;
+    }
+
+    table tr td {
+        font-size: 11px;
+    }
+
+    tr{
+        display: grid;
+    }
+    .listButtonGroup{
+        margin-top: -8rem;
+        margin-right: 0rem;
+    }
+
+    .resultsNumber{
+        text-align: center;
+    }
+    /*DELETE*/
+
+    .deletePage .navigation{
+        margin-left: 24px; 
+    }
+
+    .dialog{
+        width: 90%;
+        height: 11rem;
+        margin-top: 170px;
+    }
+
+    .message{
+        padding: 15px;
+    }
+
+    .addPanel{
+        margin: 1rem auto !important;
+        width: 100% !important;
+    }
+
+    .addForm h1{
+        font-size: 20px;
+    }
+
+    .addForm input{
+        margin-left: 0;
+        width: 10rem;
+        text-align: center;
+    }
+
+    .addButton{
+        margin-left: 0;
+    }
+
+    .addMessageContainer .vehicleImgContainer{
+        margin: 0;
+        margin-left: -42px;
+    }
+
+    .search .vehicleImg{
+        margin: 0 3rem !important;
+    }
+    .editPanel{
+        width: 100% !important;
+        margin: 2rem auto !important;
+    }
+
+    .editInput{
+        margin: 0;
+        width: 14rem;
+    }
+
+    .editVehicleImg{
+        display: none;
+    }
+
+    .editPanel h1{
+        font-size: 22px;
+    }
+
+    .saveButton{
+        margin: 1rem auto;
+    }
+
+    .mobileSave{
+        display: flex;
+        align-items: center;
+        padding: 0 20%;
+    }
+
+    .mobileSave .successColor{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .loginFrame{
+        margin: 0;
+    }
+    .vehicleImgContainer{
+        margin: -12px;
+    }
+    .dialog{
+        margin-top: 190px;
+    }
+
+    .navigation{
+        width: 100%;
+    }
+
+    .navigation li {
+        margin: 1.5rem 2rem;
+    }
+
+    .editInput {
+        width: 12.2rem;
+    }
+
+    .editPanel {
+        margin: 2rem auto 4rem !important;
+    }
+
+    .dialog {
+        margin-top: 160px;
+    }
+
+    .search .vehicleImg {
+        margin: 0 2rem !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 375px){
+    .mainFrame {
+        margin: 1.8rem 0;
+    }
+    
+    .navigation {
+        width: 24rem;
+        margin-left: 15px;
+    }
+
+    .loginFrame{
+        margin: 0 1rem;
+    }
+    
+    .vehicleImgContainer {
+        margin: 0 auto;
+    }
+
+    .editInput {
+        width: 14.2rem;
+    }
+
+    .search .vehicleImg {
+        margin: 0 2.8rem!important;
+    }
+}

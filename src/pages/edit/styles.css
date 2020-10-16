@@ -1,0 +1,24 @@
+.editInput{
+    height: 42px;
+    margin-bottom: 5px;
+}
+
+.editPanel{
+    margin: 10rem auto 0 !important;
+    width: 68% !important;
+}
+
+.editForm{
+    display: flex;
+    align-items: center;
+}
+
+.editVehicleImg{
+    height: auto !important;
+    width: 42% !important;
+    margin-bottom: 3rem;
+}
+
+.editForm table tr td{
+    width: 10rem;
+}

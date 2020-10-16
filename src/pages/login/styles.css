@@ -1,0 +1,51 @@
+.loginCar{
+    width: 60vw;
+    float: right;
+    margin-top:-200px;
+}
+
+.loginFrame{
+    margin: 5rem;
+    text-align: center;
+    background: #fff;
+    width: 400px;
+    height: 400px;
+    border-radius: 24px;
+    position: absolute;
+    top: 20%;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        0 12.5px 10px rgba(0, 0, 0, 0.035),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        0 100px 80px rgba(0, 0, 0, 0.07)
+    ;
+
+}
+
+.loginLoading{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.Typist{
+    font-size: 55px;
+    font-weight: 500;
+    color: #3c3c3c;
+    margin-top: 10rem;
+    margin-left: 35rem;
+}
+
+.Cursor{
+    animation: blink 2s linear infinite;
+}
+
+@keyframes blink{
+    0%{opacity: 0;}
+    20%{opacity: .5;}
+    50%{opacity: 1;}
+    80%{opacity: .5;}
+    100%{opacity: 0;}
+    }

@@ -1,0 +1,39 @@
+.itemVehicle{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #8080801f;  
+}
+
+.vehicleImgContainer{
+    width: 350px;
+    margin: 2rem;
+}
+
+.vehicleInfoContainer{
+    background: #fafafa;
+    border-radius: 24px;
+}
+
+.info{
+    padding:3.6rem;
+}
+
+table tr td {
+    width: 18rem;
+}
+
+.listButtonGroup{
+    float: right;
+    display: grid;
+    margin-top: -6.5rem;
+    margin-right: -2rem;
+}
+
+.listButton{
+    margin: 1rem;
+}
+
+.resultsNumber{
+    margin-left: 2px;
+}

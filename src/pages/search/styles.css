@@ -1,0 +1,22 @@
+.addForm{
+    text-align: center;
+}
+
+.addPanel{
+    margin: 15rem auto 0 !important;
+    width: 68% !important;
+}
+
+.addLoading{
+    width: 100px;
+    height: 100px;
+}
+
+.addMessageContainer{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.searchTable{
+    text-align: left;
+}

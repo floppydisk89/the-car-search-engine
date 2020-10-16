@@ -1,0 +1,48 @@
+.navigation{
+    position: fixed;
+    top: 35%;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        0 12.5px 10px rgba(0, 0, 0, 0.035),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        0 100px 80px rgba(0, 0, 0, 0.07)
+    ;
+}
+
+.navigation ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li{
+    margin: 2.5rem 2rem;
+}
+
+.tooltip {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 165px;
+    background-color:#fff;
+    color: #fff;
+    text-align: center;
+    border-radius: 24px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    margin-left: 1rem;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    background-color:#fc772f;
+    transition: 0.3s;
+  }

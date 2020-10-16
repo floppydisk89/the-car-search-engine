@@ -1,0 +1,18 @@
+.addForm{
+    text-align: center;
+}
+
+.addPanel{
+    margin: 10rem auto 0 !important;
+    width: 78% !important;
+}
+
+.addLoading{
+    width: 100px;
+    height: 100px;
+}
+
+.addMessageContainer{
+    text-align: center;
+    margin-top: 2.5rem;
+}
