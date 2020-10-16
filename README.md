@@ -6,8 +6,9 @@ This project is a React application that retrieves vehicle information based on 
 2. View all vehicles
 3. Add, delete, edit
 
-------
 Responsive and mobile optimized.
+------
+Login details
 ------
 
 Test user: user1@test.rb
