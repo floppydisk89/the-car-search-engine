@@ -1,4 +1,4 @@
-#About
+##About
 This project is a React application that retrieves vehicle information based on license plate using the RDW OpenData Api, enances the result using and image retrieved from the Google custom search API(or any other image search api) and saves this information to a backend.
 
 
