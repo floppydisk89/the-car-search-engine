@@ -6,7 +6,7 @@ import backendApi from '../../services/backend.api';
 import Navigation from '../../components/navigation';
 import {checkAccess} from '../../services/security';
 import './styles.css';
-import brickyardLogo from '../../assets/logo.png';
+import logo from '../../assets/logo.png';
 
 export default function Edit(props) {
 
@@ -110,11 +110,11 @@ export default function Edit(props) {
     return (
         <div>
             <Helmet>
-                <title>Edit - Brickyard</title>
+                <title>Edit</title>
             </Helmet>
 
             <div className='headerDashboard'>
-                <img src={brickyardLogo} alt='Brickyard' className='brickyardLogo'/>
+                <img src={logo} alt='logo' className='logo'/>
             </div>
             
             <div className='mainFrame'>

@@ -6,7 +6,7 @@ import {Trash2, Edit, X} from 'react-feather';
 import backendApi from '../../services/backend.api';
 import Navigation from '../../components/navigation';
 import {checkAccess} from '../../services/security';
-import brickyardLogo from '../../assets/logo.png';
+import logo from '../../assets/logo.png';
 import loading from '../../assets/loading-orange.gif';
 import './styles.css';
 
@@ -72,11 +72,11 @@ export default function Search() {
     return (
         <div>
             <Helmet>
-                <title>Search - Brickyard</title>
+                <title>Search</title>
             </Helmet>
 
             <div className='headerDashboard'>
-                <img src={brickyardLogo} alt='Brickyard' className='brickyardLogo'/>
+                <img src={logo} alt='logo' className='logo'/>
             </div>
             
             <div className='mainFrame'>

@@ -4,7 +4,7 @@ import {Helmet} from 'react-helmet';
 import Typist from 'react-typist';
 
 import backendApi from '../../services/backend.api';
-import brickyardLogo from '../../assets/logo.png';
+import logo from '../../assets/logo.png';
 import ecoCar from '../../assets/eco-car.svg';
 import loading from '../../assets/loading-white.gif';
 import './styles.css';
@@ -47,11 +47,11 @@ export default function Login() {
     return (
         <div>
             <Helmet>
-                <title>Login - Brickyard</title>
+                <title>Login</title>
             </Helmet>
 
             <div className='header'>
-                <img src={brickyardLogo} alt='Brickyard' className='brickyardLogo'/>
+                <img src={logo} alt='logo' className='logo'/>
             </div>
             
             <div className='mainFrame'>
@@ -72,7 +72,7 @@ export default function Login() {
                     Mobility from start to finish
                 </Typist>
             
-                <img src={ecoCar} alt='Brickyard Car' className='loginCar'/>
+                <img src={ecoCar} alt='Car' className='loginCar'/>
 
             </div>
             

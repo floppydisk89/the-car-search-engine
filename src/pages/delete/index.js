@@ -6,7 +6,7 @@ import backendApi from '../../services/backend.api';
 import Navigation from '../../components/navigation';
 import {checkAccess} from '../../services/security';
 import './styles.css';
-import brickyardLogo from '../../assets/logo.png';
+import logo from '../../assets/logo.png';
 
 export default function Delete(props) {
 
@@ -43,11 +43,11 @@ export default function Delete(props) {
     return (
         <div>
             <Helmet>
-                <title>Delete - Brickyard</title>
+                <title>Delete</title>
             </Helmet>
 
             <div className='headerDashboard'>
-                <img src={brickyardLogo} alt='Brickyard' className='brickyardLogo'/>
+                <img src={logo} alt='logo' className='logo'/>
             </div>
 
             <div className='leftFrame deletePage'>

@@ -8,7 +8,7 @@ import rdwApi from '../../services/rdw.api';
 import googleApi from '../../services/googleSearch.api';
 import Navigation from '../../components/navigation';
 import {checkAccess} from '../../services/security';
-import brickyardLogo from '../../assets/logo.png';
+import logo from '../../assets/logo.png';
 import loading from '../../assets/loading-orange.gif';
 import './styles.css';
 
@@ -106,11 +106,11 @@ export default function Add() {
     return (
         <div>
             <Helmet>
-                <title>Edit - Brickyard</title>
+                <title>Edit</title>
             </Helmet>
 
             <div className='headerDashboard'>
-                <img src={brickyardLogo} alt='Brickyard' className='brickyardLogo'/>
+                <img src={logo} alt='logo' className='logo'/>
             </div>
             
             <div className='mainFrame'>
