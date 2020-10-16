@@ -1,4 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About
+This project is a React application that retrieves vehicle information based on license plate using the RDW OpenData Api, enhances the result using and image retrieved from the Google custom search API and saves this information to a backend.
+
+### Functionalities:
+1. Search
+2. View all vehicles
+3. Add, delete, edit
+
+------
+Responsive and mobile optimized.
+------
+
+Test user: user1@test.rb
+Test password: test
 
 ## Available Scripts
 
